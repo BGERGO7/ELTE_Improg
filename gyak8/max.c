@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+int* max (int* a, int* b){
+    if (*a > *b){
+        return a;
+    }else if(*a < *b){
+        return b;
+    }else{
+        return NULL;
+    }
+}
